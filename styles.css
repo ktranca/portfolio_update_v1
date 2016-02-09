@@ -78,7 +78,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2) rotate(360deg) skewY(30deg);
 
 }
 .tag {
@@ -204,11 +204,6 @@ a.social:hover {
     min-height: 200px;
   }
 
-  /*.card {
-
-    max-width: 50%;
-
-  }*/
 
   .nav {
     max-width: 1200px;
